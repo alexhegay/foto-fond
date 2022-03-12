@@ -1,0 +1,24 @@
+body{
+    background-image: url(../img/1.jpg);/*ставим картинку на фон блока. url(./указываем путь до нужной кортинки)*/
+    background-repeat: repeat;/*свойство копирует (repeat) катинку или не копирует(no-repeat)*/
+    background-position: center;/*определяет положение картинки, где она будет стоять*/
+    height: 100vh;/*высота 100vh-высота одного экрана, 200vh-высота двух экранов*/
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-position: top 100px right 100px;
+    background-size: 225px 225px;/*устонавливает размер картинки*/
+    
+}
+.box{
+    width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 70px;
+    text-align: justify;
+    background-image:url(../img/top-bg.png),url(../img/bottom-bg.png),url(../img/center-bg.png) ;
+    background-position: top,bottom,center;
+    background-repeat: no-repeat,no-repeat,repeat-y;
+}
+p{
+    color: black;
+}
